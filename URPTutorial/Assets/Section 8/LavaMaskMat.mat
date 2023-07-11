@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TiledLava
-  m_Shader: {fileID: -6465566751694194690, guid: 4707e47017109644f9f72d33fc9d1a0f,
+  m_Name: LavaMaskMat
+  m_Shader: {fileID: -6465566751694194690, guid: 54d4e46e473e7db4dafc464cf0124e87,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -21,20 +21,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Albedo:
-        m_Texture: {fileID: 2800000, guid: 21785b63b771f6e49b2815b56b408496, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Emissive:
-        m_Texture: {fileID: 2800000, guid: 9b3f89baf245f6245b54aa8a35a5e76d, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Mask:
+    - _LMask:
         m_Texture: {fileID: 2800000, guid: 331e1be6f288e8b4f9ac8a6efd298878, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: 63262c1be9f898d44a648a73ae046478, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -55,7 +43,7 @@ Material:
     - _QueueOffset: 0
     m_Colors: []
   m_BuildTextureStacks: []
---- !u!114 &5064702929708668174
+--- !u!114 &8810266183662569742
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
