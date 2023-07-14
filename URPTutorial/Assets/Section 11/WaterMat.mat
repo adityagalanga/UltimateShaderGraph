@@ -7,12 +7,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ForceShieldMat
-  m_Shader: {fileID: -6465566751694194690, guid: 888b273cd46dfe043a89b71d840b68a9,
+  m_Name: WaterMat
+  m_Shader: {fileID: -6465566751694194690, guid: a50f2d5102eab1f43bb8dd6d7dbb3eaf,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -35,13 +35,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BandSize: 1
-    - _FPower: 4.3
+    - _Distance: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    m_Colors: []
+    m_Colors:
+    - _DeepColor: {r: 0.045229584, g: 0.24866188, b: 0.31132078, a: 0}
+    - _ShallowColor: {r: 0.34859377, g: 0.9065625, b: 0.9622641, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &2975151319442969319
+--- !u!114 &4330112087215704286
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

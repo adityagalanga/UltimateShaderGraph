@@ -56,11 +56,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _CrackStrength: 0
-    - _Intensity: 2.1
+    - _CrackStrength: 3
+    - _Intensity: 6.4
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Repeat1: 1
-    - _Repeat2: 4.8
+    - _Repeat1: 0
+    - _Repeat2: 2.9
     m_Colors: []
   m_BuildTextureStacks: []
