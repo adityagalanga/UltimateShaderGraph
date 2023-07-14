@@ -52,11 +52,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _FlowScale: 6
-    - _FlowSpeed: 0.1
+    - _FlowScale: 3
+    - _FlowSpeed: 0.05
+    - _Metallic: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _ReflectionStrength: 0
+    - _ReflectionStrength: 0.34
+    - _Smoothness: 0.5
     m_Colors:
     - _FlowDir: {r: 0, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
