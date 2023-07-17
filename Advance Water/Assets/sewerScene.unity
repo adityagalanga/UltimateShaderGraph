@@ -1604,8 +1604,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 731467300}
-  m_LocalRotation: {x: -0.09295461, y: -0.90625036, z: 0.3107303, w: -0.271139}
-  m_LocalPosition: {x: -1.0346365, y: 4.0698814, z: 11.839048}
+  m_LocalRotation: {x: -0.05376471, y: -0.9330038, z: 0.15709203, w: -0.31927332}
+  m_LocalPosition: {x: -4.7309146, y: 0.9058285, z: 15.2962055}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2128,7 +2128,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 3
       scalar: 2
-      minScalar: 0.1
+      minScalar: 1
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -3308,7 +3308,7 @@ ParticleSystem:
         m_RotationOrder: 4
     separateAxes: 0
   ColorModule:
-    enabled: 0
+    enabled: 1
     gradient:
       serializedVersion: 2
       minMaxState: 1
@@ -3317,7 +3317,7 @@ ParticleSystem:
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
-        key1: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 0.011764706, g: 0.12156863, b: 0.06666667, a: 1}
         key2: {r: 0, g: 0, b: 0, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
@@ -3325,7 +3325,7 @@ ParticleSystem:
         key6: {r: 0, g: 0, b: 0, a: 0}
         key7: {r: 0, g: 0, b: 0, a: 0}
         ctime0: 0
-        ctime1: 65535
+        ctime1: 26792
         ctime2: 0
         ctime3: 0
         ctime4: 0
@@ -3333,8 +3333,8 @@ ParticleSystem:
         ctime6: 0
         ctime7: 0
         atime0: 0
-        atime1: 65535
-        atime2: 0
+        atime1: 46260
+        atime2: 65535
         atime3: 0
         atime4: 0
         atime5: 0
@@ -3342,7 +3342,7 @@ ParticleSystem:
         atime7: 0
         m_Mode: 0
         m_NumColorKeys: 2
-        m_NumAlphaKeys: 2
+        m_NumAlphaKeys: 3
       minGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -8227,15 +8227,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5596ac712d1c44e04be16b2833eb40e8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.19
+      value: 8.99
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5596ac712d1c44e04be16b2833eb40e8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 19.52
+      value: 19.32
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5596ac712d1c44e04be16b2833eb40e8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -15.13
+      value: -14.91
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5596ac712d1c44e04be16b2833eb40e8, type: 3}
       propertyPath: m_LocalRotation.w
