@@ -39,7 +39,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Distance: 0.1
+    - _Distance: 2
+    - _FoamAmount: 5
     - _NormalScale: 5
     - _NormalSpeed: 0.005
     - _QueueControl: 0
@@ -50,6 +51,7 @@ Material:
     - _WaveSpeed: 0.1
     m_Colors:
     - _DeepColor: {r: 0.013189739, g: 0.12264148, b: 0.065309614, a: 0.99607843}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
     - _NormalDirection: {r: 0, g: 1, b: 0, a: 0}
     - _ShallowColor: {r: 0.08116767, g: 0.2830189, b: 0.25062037, a: 1}
   m_BuildTextureStacks: []
