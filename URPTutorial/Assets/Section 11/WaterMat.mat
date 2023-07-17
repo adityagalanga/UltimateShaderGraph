@@ -35,12 +35,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Distance: 1
+    - _Distance: 0.682
+    - _Foam: 7
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
     - _DeepColor: {r: 0.045229584, g: 0.24866188, b: 0.31132078, a: 0}
-    - _ShallowColor: {r: 0.34859377, g: 0.9065625, b: 0.9622641, a: 0}
+    - _ShallowColor: {r: 0, g: 1, b: 0.9622641, a: 0.99607843}
   m_BuildTextureStacks: []
 --- !u!114 &4330112087215704286
 MonoBehaviour:

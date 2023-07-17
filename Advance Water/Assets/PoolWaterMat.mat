@@ -40,7 +40,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Distance: 1.56
-    - _FoamAmount: 5
+    - _FoamAmount: 6.66
     - _NormalScale: 5
     - _NormalSpeed: 0.005
     - _QueueControl: 0
